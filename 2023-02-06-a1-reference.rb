@@ -1,4 +1,4 @@
-f=->l{l.chars.inject(0){_1*26+_2.ord-64}}
+f=->l{l.bytes.inject(0){_1*26+_2-64}}
 
 p f['A'] # -> 1
 p f['B'] # -> 2
