@@ -1,4 +1,4 @@
-f=->l{l.size.times.sum{|i|[0,*?A..?Z].index(l[-1-i])*26**i}}
+f=->l{l.chars.inject(0){_1*26+_2.ord-64}}
 
 p f['A'] # -> 1
 p f['B'] # -> 2
