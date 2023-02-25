@@ -1,3 +1,5 @@
+# https://buttondown.email/cassidoo/archive/talent-without-working-hard-is-nothing-cristiano/
+
 f=->l{l.bytes.inject(0){_1*26+_2-64}}
 
 p f['A'] # -> 1

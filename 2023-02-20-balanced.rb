@@ -1,3 +1,5 @@
+# https://buttondown.email/cassidoo/archive/to-think-that-everybodys-like-you-is-silly/
+
 f=->s{(s.count(?()*2-s.size).abs}
 
 p f['()'] # > 0
