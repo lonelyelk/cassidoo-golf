@@ -7,6 +7,8 @@ eval$q=%q(
 # `ruby 2023-04-03-quine-word-size.rb`
 # And then:
 # `wc -m 2023-04-03-quine-word-size.rb`
+#
+# NOTE that this `puts "ten"` also works and is the proper golf solution.
 
 num1_9 = %w[one two three four five six seven eight nine]
 num11_19 = %w[eleven twelve thirteen fourteen fifteen sixteen seventeen eighteen nineteen]
